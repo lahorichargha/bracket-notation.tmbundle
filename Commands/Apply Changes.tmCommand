@@ -5,7 +5,15 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>sed 's/\[.+?\]\[\(.+?\)\]/\1/' | sed 's/\[.+?\]//'</string>
+	<string>#!/usr/bin/ruby
+
+input = STDIN.read
+
+input.gsub!(/\[[^\]]*\]\[([^\]]*)\]\[[^\]]*\]/) {|s| $1}
+input.gsub!(/\[[^\]]*\]\[([^\]]*)\]/) {|s| $1}
+input.gsub!(/\[[^\]]*\]/) {|s| $1}
+
+puts input</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
