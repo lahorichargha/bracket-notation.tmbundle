@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>sed 's/\[.+?\]\[\(.+?\)\]/\1/' | sed 's/\[.+?\]//'</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^a</string>
+	<key>name</key>
+	<string>Apply Changes</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>text.bn</string>
+	<key>uuid</key>
+	<string>610F688E-5C60-452A-8226-1F26C96AF79D</string>
+</dict>
+</plist>

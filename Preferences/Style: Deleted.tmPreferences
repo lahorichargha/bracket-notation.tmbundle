@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Style: Deleted</string>
+	<key>scope</key>
+	<string>bn.markup.deleted</string>
+	<key>settings</key>
+	<dict>
+		<key>background</key>
+		<string>#770000</string>
+		<key>foreground</key>
+		<string>#ffffff</string>
+	</dict>
+	<key>uuid</key>
+	<string>4227DDCE-0781-40AB-B6A3-BB0B0553D69D</string>
+</dict>
+</plist>

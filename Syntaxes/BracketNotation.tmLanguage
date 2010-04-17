@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>.txt</string>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^~B</string>
+	<key>name</key>
+	<string>Bracket Notation</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>bn.markup.deleted</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>bn.markup.inserted</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>bn.markup.commented</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(\[[^\[]*\])(\[[^\[]*\])?(\[[^\[]*\])?</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.bn</string>
+	<key>uuid</key>
+	<string>80BAAF6E-C03E-43A5-9432-CBB449C15029</string>
+</dict>
+</plist>
