@@ -13,13 +13,13 @@ input.gsub!(/\[([^\]]*)\]\[[^\]]*\]\[[^\]]*\]/) {|s| $1}
 input.gsub!(/\[([^\]]*)\]\[[^\]]*\]/) {|s| $1}
 input.gsub!(/\[([^\]]*)\]/) {|s| $1}
 
-puts input</string>
+print input</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
 	<string>^r</string>
 	<key>name</key>
-	<string>Revert Changes</string>
+	<string>Reject Changes</string>
 	<key>output</key>
 	<string>replaceSelectedText</string>
 	<key>scope</key>
